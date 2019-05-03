@@ -1,4 +1,4 @@
-package dogfight.model;
+package model; //déclaration du package dans lequel se trouve la classe
 /**
  * Cloud
  */
