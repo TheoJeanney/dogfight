@@ -72,17 +72,21 @@ public class Mobile {   //création de la classe mobile
     
     public boolean isPlayer(Integer player)
     {
+<<<<<<< HEAD
     	return true;
+=======
+    
+>>>>>>> branch 'master' of https://github.com/TheoJeanney/dogfight.git
     }
     
     private void moveUp()
     {
-    	
+    
     }
     
     private void moveRight()
     {
-    	
+    
     }
     
     private void moveDown()
@@ -94,27 +98,31 @@ public class Mobile {   //création de la classe mobile
     {
     	
     }
-    
+ 
     public Color getColor()
     {
     	return null;
     }
-    
+ 
     public IDogfightModel getDogfightModel()
     {
+<<<<<<< HEAD
     	return null ;
+=======
+    	return dogfightModel;
+>>>>>>> branch 'master' of https://github.com/TheoJeanney/dogfight.git
     }
     
     public void setDogfightModel(IDogfightModel dogfightModel)
     {
-    	
+  
     }
     
     public boolean hit()
     {
     	return true ;
     }
-    
+  
     public boolean isWeapon()
     {
     	return true;

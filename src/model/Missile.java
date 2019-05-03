@@ -28,6 +28,10 @@ public class Missile extends Mobile { //création de la classe Missile comme hé
     }
 
     public boolean isWeapon() {
+<<<<<<< HEAD
         return true;
+=======
+        
+>>>>>>> branch 'master' of https://github.com/TheoJeanney/dogfight.git
     }
 }
