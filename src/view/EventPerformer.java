@@ -5,15 +5,18 @@ import controller.IOrderPerformer;
 import controller.UserOrder;
 
 public class EventPerformer {
+	
+	UserOrder test = new UserOrder();
+	
 	public void EventPerformer(IOrderPerformer orderPerformer) {
-
-	};
+		
+	}
 	
 	public void eventPerform(KeyEvent keyCode) {
 		
-	};
+	}
 	
-	public UserOrder keyCodeToUserOrder(int keyCode) {
-		return UserOrder;
+	private UserOrder keyCodeToUserOrder(int keyCode) {
+		return test ;
 	}
 }

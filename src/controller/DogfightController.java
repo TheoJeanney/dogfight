@@ -1,4 +1,5 @@
-package dogfight.controller;
+package controller;
+
 
 public class DogfightController implements IOrderPerformer {
 
@@ -26,7 +27,7 @@ public class DogfightController implements IOrderPerformer {
 			 
 	}
 	
-	//Lancement missle
+	//Lancement missile
 	private void launchMissile(Integer player)
 	{
 		

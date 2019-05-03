@@ -26,5 +26,11 @@ public class GameFrame implements IEventPerformer, KeyListener {
 	public void keyTyped(java.awt.event.KeyEvent e) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void eventPerform(KeyEvent keyCode) {
+		// TODO Auto-generated method stub
+		
 	};
 }

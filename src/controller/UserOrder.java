@@ -1,4 +1,4 @@
-package dogfight.controller;
+package controller;
 
 public class UserOrder implements IUserOrder {
 
@@ -10,7 +10,7 @@ public class UserOrder implements IUserOrder {
 
 		this.player = player;
 		this.order=order;
-	   
+	 
 	}
 
 	@Override

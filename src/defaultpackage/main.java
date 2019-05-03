@@ -1,5 +1,8 @@
 package defaultpackage;
 
+import controller.DogfightController;
+import view.DogfightView;
+
 public class main {
 
 	public static void main(String[] args) {

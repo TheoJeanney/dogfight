@@ -1,6 +1,7 @@
 package view;
 import java.lang.Runnable;
 import java.util.Observable;
+
 import controller.IOrderPerformer;
 
 public class DogfightView implements IViewSystem {
