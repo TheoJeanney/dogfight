@@ -7,5 +7,5 @@ public enum Order {
 	DOWN,
 	LEFT,
 	SHOOT,
-	NOP
-}	
+	NOP ;
+}	 
