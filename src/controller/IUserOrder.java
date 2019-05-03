@@ -13,4 +13,3 @@ public interface IUserOrder {
 		return player;
 	}
 }
-
