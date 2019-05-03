@@ -1,5 +1,6 @@
 package model; //déclaration du package dans lequel se trouve la classe
 
+
 import java.awt.Image;
 
 /**

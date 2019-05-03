@@ -10,6 +10,14 @@ public class Position { //création de la classe position
     private Double maxX;
     private Double maxY;
 
+    public Position(Double x, Double y, Double maxX, Double maxY) { //Création du constructeur Position
+        
+    }
+
+    public Position(Position position) {
+        
+    }
+
     /**
      * @return the x
      */
