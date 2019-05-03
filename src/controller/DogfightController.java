@@ -18,7 +18,7 @@ public class DogfightController implements IOrderPerformer {
 	//Jeu
 	public void play()
 	{
-		
+	
 	} 
 	
 	public void setViewSystem(IViewSystem viewSystem)

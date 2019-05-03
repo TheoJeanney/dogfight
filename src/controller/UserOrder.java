@@ -18,7 +18,7 @@ public class UserOrder implements IUserOrder {
 		// TODO Auto-generated method stub
 		return order ;
 	}
-	 
+	
 	@Override
 	public int getPlayer() {
 		// TODO Auto-generated method stub
