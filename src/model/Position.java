@@ -1,4 +1,4 @@
-package dogfight.model; //déclaration du package dans lequel se trouve la classe
+package model; //déclaration du package dans lequel se trouve la classe
 
 /**
  * Position
@@ -9,6 +9,14 @@ public class Position { //création de la classe position
     private Double y;
     private Double maxX;
     private Double maxY;
+
+    public Position(Double x, Double y, Double maxX, Double maxY) { //Création du constructeur Position
+        
+    }
+
+    public Position(Position position) {
+        
+    }
 
     /**
      * @return the x
