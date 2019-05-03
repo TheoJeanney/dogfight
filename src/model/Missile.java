@@ -26,7 +26,7 @@ public class Missile extends Mobile { //création de la classe Missile comme hé
         
     }
 
-    public isWeapon() {
+    public boolean isWeapon() {
         
     }
 }

@@ -1,5 +1,6 @@
 package model; //déclaration du package dans lequel se trouve la classe
-import java.awt.color;
+import java.awt.Color;
+import java.awt.Image;
 /**
  * Mobile
  */
@@ -71,17 +72,17 @@ public class Mobile {   //création de la classe mobile
     
     public boolean isPlayer(Integer player)
     {
-    	
+    
     }
     
     private void moveUp()
     {
-    	
+    
     }
     
     private void moveRight()
     {
-    	
+    
     }
     
     private void moveDown()
@@ -93,27 +94,27 @@ public class Mobile {   //création de la classe mobile
     {
     	
     }
-    
+ 
     public Color getColor()
     {
     	return color;
     }
-    
+ 
     public IDogfightModel getDogfightModel()
     {
-    	return dogfightModel ;
+    	return dogfightModel;
     }
     
     public void setDogfightModel(IDogfightModel dogfightModel)
     {
-    	
+  
     }
     
     public boolean hit()
     {
     	return hit;
     }
-    
+  
     public boolean isWeapon()
     {
     	return weapon;
