@@ -1,4 +1,4 @@
-package dogfight.model; //déclaration du package dans lequel se trouve la classe
+package model; //déclaration du package dans lequel se trouve la classe
 
 /**
  * Sky
