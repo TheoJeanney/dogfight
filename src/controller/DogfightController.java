@@ -23,7 +23,7 @@ public class DogfightController implements IOrderPerformer {
 	
 	public void setViewSystem(IViewSystem viewSystem)
 	{
-		
+			
 	}
 	
 	//Lancement missle
@@ -31,7 +31,7 @@ public class DogfightController implements IOrderPerformer {
 	{
 		
 	}
-	
+
 	private void gameLoop()
 	{
 		

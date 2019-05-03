@@ -8,4 +8,4 @@ public enum Order {
 	LEFT,
 	SHOOT,
 	NOP
-}
+}	
