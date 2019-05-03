@@ -1,6 +1,6 @@
 package defaultpackage;
 
-import controller.DogfightController;
+import controller.*;
 import model.DogfightModel;
 import view.DogfightView;
 
@@ -12,8 +12,7 @@ public class main {
 		//test
 		final DogfightModel dogfightModel = new DogfightModel();
 		final DogfightController dogfightController = new DogfightController(dogfightModel);
-		final DogfightView dogfightView = new DogfightView(dogfightController, dogfightModel,
-		dogfightModel);
+		final DogfightView dogfightView = new DogfightView(dogfightController, dogfightModel,dogfightModel);
 		dogfightController.setViewSystem(dogfightView);
 		dogfightController.play();
 	}

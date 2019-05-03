@@ -8,16 +8,16 @@ import java.awt.Image;
  */
 public class Sky implements IArea {  //création de la classe Sky
  
-	Dimension dimension = new Dimension();
+	
 	
     public Sky(Dimension dimension)
     {
-    	this.dimension = dimension;
+    	
     }
     
     public Dimension getDimension(){
  
-    return dimension;
+    return null;
     }
     
 	@Override

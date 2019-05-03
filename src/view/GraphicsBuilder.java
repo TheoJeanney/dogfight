@@ -17,10 +17,10 @@ public class GraphicsBuilder implements IGraphicsBuilder {
 		
 	}
 	public int getGlobalWidth() {
-		
+		return 1;
 	}
 	public int getGlobalHeight() {
-		
+		return 1;
 	}
 	@Override
 	public void applyModelToGraphic(Graphics graphics, ImageObserver Observer) {
