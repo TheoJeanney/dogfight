@@ -7,7 +7,7 @@ public class DogfightController implements IOrderPerformer {
 	
 	public DogFightController(IDogfightModel dogfightModel)
 	{
-		
+	
 	}
 	
 	public void orderPerform(UserOrder userOder)
