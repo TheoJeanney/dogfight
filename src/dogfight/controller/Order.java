@@ -5,7 +5,7 @@ public enum Order {
 	UP,
 	RIGHT,
 	DOWN,
-	LEFT,  
+	LEFT, 
 	SHOOT,
 	NOP ;
 }	 
