@@ -1,5 +1,9 @@
 package defaultpackage;
 
+import controller.DogfightController;
+import model.DogfightModel;
+import view.DogfightView;
+
 public class main {
 
 	public static void main(String[] args) {
@@ -13,6 +17,5 @@ public class main {
 		dogfightController.setViewSystem(dogfightView);
 		dogfightController.play();
 	}
-	
 }
   

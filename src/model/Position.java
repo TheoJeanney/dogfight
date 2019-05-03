@@ -31,7 +31,7 @@ public class Position { //création de la classe position
     public void setX(Double x) {
         this.x = x;
     }
-
+ 
     /**
      * @return the y
      */

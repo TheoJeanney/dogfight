@@ -1,4 +1,4 @@
-package dogfight.controller;
+package controller;
 
 public interface IOrderPerformer {
 

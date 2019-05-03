@@ -1,7 +1,6 @@
-package dogfight.controller;
+package controller;
 
 public enum Order {
- 
 	UP,
 	RIGHT,
 	DOWN,

@@ -1,12 +1,19 @@
-package dogfight.controller;
+package controller;
+
+import model.IDogfightModel;
+import model.Missile;
+import view.IViewSystem;
 
 public class DogfightController implements IOrderPerformer {
 
 	private static Integer TIME_SLEEP = 30;
+	private IViewSystem viewSystem;
+	private IDogfightModel dogfightModel;
+	Missile missile = new Missile();
 	
-	
-	public DogFightController(IDogfightModel dogfightModel)
+	public DogfightController(IDogfightModel dogfightModel)
 	{
+	 this.dogfightModel = dogfightModel;
 	 
 	}
 	
@@ -23,10 +30,10 @@ public class DogfightController implements IOrderPerformer {
 	
 	public void setViewSystem(IViewSystem viewSystem)
 	{
-			 
+		this.viewSystem = viewSystem;
 	}
 	
-	//Lancement missle
+	//Lancement missile
 	private void launchMissile(Integer player)
 	{
 		

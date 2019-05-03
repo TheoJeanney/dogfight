@@ -7,10 +7,18 @@ public class Dimension {  //création de la classe
     private Integer width;      //création des objects
     private Integer height;
 
+    public Dimension(Integer width, Integer height) {
+
+    }
+
+    public Dimension(Dimension dimension) {
+        
+    }
+
     public Integer getWidth() {     //création des acesseurs
         return width;
     }
-
+ 
 
     public void setWidth(Integer width) {
         this.width = width;

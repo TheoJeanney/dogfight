@@ -33,5 +33,6 @@ public class DogfightModel extends Observable {    //création de la classe Dogf
 	
 	public IMobile getMobileByPlayer(int player) {
 		return null;
-	}
+	}     
+
 }

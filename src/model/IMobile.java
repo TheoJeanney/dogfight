@@ -1,7 +1,9 @@
-package model; //déclaration du package dans lequel se trouve la classe
+package model; //d�claration du package dans lequel se trouve la classe
+
 
 import java.awt.*;
 import model.Direction;
+
 
 public interface IMobile {  //création de l'interface IMobile
 	public Direction getDirection();

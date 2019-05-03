@@ -1,10 +1,11 @@
-package model; //déclaration du package dans lequel se trouve la classe
+package model; //d�claration du package dans lequel se trouve la classe
 
 import java.util.ArrayList;
 
 /**
  * IDogfightModel
  */
+
 public interface IDogfightModel {   //création de l'interface IDogfightModel
 	public IArea getArea();
 	public void buildArea(Dimension dimension);
@@ -14,3 +15,4 @@ public interface IDogfightModel {   //création de l'interface IDogfightModel
 	public IMobile getMobileByPlayer(int player);
 	public void setMobilesHavesMoved();
 }
+

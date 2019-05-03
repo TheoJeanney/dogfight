@@ -9,7 +9,7 @@ public class Missile extends Mobile { //création de la classe Missile comme hé
     private static Integer HEIGHT  = 10;
     private static String MAX_DISTANCE_TRAVELED = "missile";
     private Integer distanceTravaled = 0;
-
+ 
     public Missile(Direction direction, Dimension dimension) {
         
     }
