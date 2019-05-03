@@ -7,7 +7,7 @@ import java.awt.Image;
  * Sky
  */
 public class Sky implements IArea {  //création de la classe Sky
-
+ 
 	Dimension dimension = new Dimension();
 	
     public Sky(Dimension dimension)

@@ -7,5 +7,5 @@ import java.util.Observable; //on importe la java.util.Observable afin de pouvoi
  */
 public class DogfightModel extends Observable {    //création de la classe DogfightModel
 
-    
+     
 }

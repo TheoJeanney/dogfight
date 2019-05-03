@@ -18,7 +18,7 @@ public class Dimension {  //création de la classe
     public Integer getWidth() {     //création des acesseurs
         return width;
     }
-
+ 
 
     public void setWidth(Integer width) {
         this.width = width;

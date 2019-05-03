@@ -8,6 +8,6 @@ import java.awt.Image;
 public interface IArea {    //création de l'interface IArea
 
 	public Dimension getDimension();
-	public Image getImage();
+	public Image getImage(); 
     
 }

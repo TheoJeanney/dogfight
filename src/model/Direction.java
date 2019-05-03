@@ -5,4 +5,4 @@ public enum Direction { //création de l'énumération direction
     RIGHT,
     DOWN,
     LEFT;
-}
+} 

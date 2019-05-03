@@ -9,4 +9,4 @@ public class Cloud<speed> extends Mobile{  //création de la classe Cloud comme 
     private static Integer WIDTH = 300;
     private static Integer HEIGHT = 150;
     private static String IMAGE = "cloud";
-}
+} 

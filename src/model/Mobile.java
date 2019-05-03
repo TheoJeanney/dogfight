@@ -58,7 +58,7 @@ public class Mobile {   //création de la classe mobile
     {
     	return height;
     }
-    
+     
     public void move()
     {
     	
