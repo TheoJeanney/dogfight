@@ -1,6 +1,7 @@
 package defaultpackage;
 
 import controller.DogfightController;
+import model.DogfightModel;
 import view.DogfightView;
 
 public class main {
@@ -16,6 +17,5 @@ public class main {
 		dogfightController.setViewSystem(dogfightView);
 		dogfightController.play();
 	}
-	
 }
   

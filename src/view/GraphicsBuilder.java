@@ -1,15 +1,13 @@
 package view;
 
+import java.awt.Graphics;
 import java.awt.image.*;
-import dogfight.model;
+import model.*;
 import gameframe.IGraphicsBuilder;
 
 public class GraphicsBuilder implements IGraphicsBuilder {
 	
 	public void GraphicsBuilder(IDogfightModel dogfightModel) {
-		
-	}
-	public void applyModelToGraphic(Graphics graphics, Observer observer) {
 		
 	}
 	private void buildEmptySky(){
@@ -24,4 +22,10 @@ public class GraphicsBuilder implements IGraphicsBuilder {
 	public int getGlobalHeight() {
 		
 	}
+	@Override
+	public void applyModelToGraphic(Graphics graphics, ImageObserver Observer) {
+	
+		
+	}
+
 }

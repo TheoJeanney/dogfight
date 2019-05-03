@@ -1,9 +1,9 @@
-package model; //dÃ©claration du package dans lequel se trouve la classe
+package model; //déclaration du package dans lequel se trouve la classe
 
 /**
  * IDogfightModel
  */
-public interface IDogfightModel {   //crÃ©ation de l'interface IDogfightModel
+public interface IDogfightModel {   //création de l'interface IDogfightModel
 
     
 }
