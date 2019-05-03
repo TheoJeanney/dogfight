@@ -1,12 +1,7 @@
 package controller;
 
 public interface IOrderPerformer {
-	
-	
-	
-	public void orderPerform(userOrder userOrder)
-	{
-		
-	}
+
+	public void orderPerform(UserOrder userOrder);
 	
 }
