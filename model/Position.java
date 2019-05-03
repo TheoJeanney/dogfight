@@ -37,4 +37,18 @@ public class Position { //création de la classe position
     public void setY(Double y) {
         this.y = y;
     }
+
+    /**
+     * @param maxX the maxX to set
+     */
+    public void setMaxX(Double maxX) {
+        this.maxX = maxX;
+    }
+
+    /**
+     * @param maxY the maxY to set
+     */
+    public void setMaxY(Double maxY) {
+        this.maxY = maxY;
+    }
 }

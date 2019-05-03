@@ -1,4 +1,4 @@
-package dogfight.model;
+package dogfight.model; //déclaration du package dans lequel se trouve la classe
 /**
  * Plane
  */
