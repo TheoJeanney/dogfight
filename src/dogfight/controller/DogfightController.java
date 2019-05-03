@@ -1,4 +1,4 @@
-package controller;
+package dogfight.controller;
 
 public class DogfightController implements IOrderPerformer {
 
@@ -12,7 +12,7 @@ public class DogfightController implements IOrderPerformer {
 	
 	public void orderPerform(UserOrder userOder)
 	{
-		  
+		
 	}
 	
 	//Jeu

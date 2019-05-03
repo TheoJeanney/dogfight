@@ -1,4 +1,4 @@
-package controller;
+package dogfight.controller;
 
 public interface IUserOrder {
 	
