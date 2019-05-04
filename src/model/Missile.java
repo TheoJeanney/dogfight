@@ -11,17 +11,22 @@ public class Missile extends Mobile { //création de la classe Missile comme hé
     private static String IMAGE = "missile";
     private Integer distanceTravaled = 0;
  
+<<<<<<< HEAD
     public Missile(Direction direction, Dimension dimension) {
         return 1;
         
+=======
+    public Missile(Direction direction, Position position) {
+        super(direction,position, new Dimension(WIDTH, HEIGHT),SPEED,IMAGE);
+>>>>>>> master
     }
 
-    public static getWidthWithADirection(Direction direction) {
-
+    public static Integer getWidthWithADirection(Direction direction) {
+    	return 1;
     }
 
-    public static getHeightWithADirection(Direction direction) {
-
+    public static Integer getHeightWithADirection(Direction direction) {
+    	return 1;
     }
 
     public void move() {
@@ -29,6 +34,10 @@ public class Missile extends Mobile { //création de la classe Missile comme hé
     }
 
     public boolean isWeapon() {
+<<<<<<< HEAD
+        return true;
+=======
         
+>>>>>>> branch 'master' of https://github.com/TheoJeanney/dogfight.git
     }
 }

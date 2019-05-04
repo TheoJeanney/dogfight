@@ -13,17 +13,17 @@ public class Plane extends Mobile {
 	 
 	public Plane(Integer player,Direction direction, Position position, String image) {
 	
-		this.player=player;
+		super(direction,position,new Dimension(WIDTH, HEIGHT),SPEED, image);
 		
 	}
 	
 	public boolean isPlayer(Integer player)
 	{
-		return ;
+		return true ;
 	}
 
     public boolean hit()
     {
-    	return ;
+    	return true ;
     }
 }

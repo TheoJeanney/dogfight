@@ -10,20 +10,20 @@ public class Mobile {   //création de la classe mobile
     private Direction direction;
     private Position position;
     private Dimension dimension;
-    private Image image;
+    private String image;
 
-    /**
-     * @return the speed
-     */
-    public Integer getSpeed() {   //création des accesseurs
-        return speed;
-    }
-    
+
     public Mobile(Direction direction, Position position, Dimension dimension, Integer speed, String image)
     {
+    	this.direction = direction;
+    	this.position = position;
+    	this.dimension = dimension;
+    	this.speed=speed;
+    	this.image = image;
     	
     }
     
+      
     public Direction getDirection()
     {
     	return direction;
@@ -33,9 +33,9 @@ public class Mobile {   //création de la classe mobile
     	this.direction = direction;
     }
     
-    public Point getPosition()
+    public Position getPosition()
     {
-    	return point;
+    	return position;
     }
     
     public Dimension getDimension()
@@ -46,18 +46,18 @@ public class Mobile {   //création de la classe mobile
     
     public Integer getSpeed()
     {
-    	return speed;
+    	return 1;
     }
     
     public Integer getWidth()
     {
-    	return width;
+    	return 1;
     }
     
     
     public Integer getHeight()
     {
-    	return height;
+    	return 1;
     }
      
     public void move()
@@ -72,7 +72,11 @@ public class Mobile {   //création de la classe mobile
     
     public boolean isPlayer(Integer player)
     {
+<<<<<<< HEAD
+    	return true;
+=======
     
+>>>>>>> branch 'master' of https://github.com/TheoJeanney/dogfight.git
     }
     
     private void moveUp()
@@ -97,12 +101,16 @@ public class Mobile {   //création de la classe mobile
  
     public Color getColor()
     {
-    	return color;
+    	return null;
     }
  
     public IDogfightModel getDogfightModel()
     {
+<<<<<<< HEAD
+    	return null ;
+=======
     	return dogfightModel;
+>>>>>>> branch 'master' of https://github.com/TheoJeanney/dogfight.git
     }
     
     public void setDogfightModel(IDogfightModel dogfightModel)
@@ -112,17 +120,17 @@ public class Mobile {   //création de la classe mobile
     
     public boolean hit()
     {
-    	return hit;
+    	return true ;
     }
   
     public boolean isWeapon()
     {
-    	return weapon;
+    	return true;
     }
     
     public Image getImage()
     {
-    	return image;
+    	return null;
     }
       
 }

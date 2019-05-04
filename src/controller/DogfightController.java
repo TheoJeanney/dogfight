@@ -1,17 +1,16 @@
 package controller;
 
-import model.IDogfightModel;
-import model.Missile;
-import view.IViewSystem;
+import model.*;
+import view.*;
 
 public class DogfightController implements IOrderPerformer {
 
 	private static Integer TIME_SLEEP = 30;
 	private IViewSystem viewSystem;
-	private IDogfightModel dogfightModel;
-	Missile missile = new Missile();
+	private DogfightModel dogfightModel;
+
 	
-	public DogfightController(IDogfightModel dogfightModel)
+	public DogfightController(DogfightModel dogfightModel)
 	{
 	 this.dogfightModel = dogfightModel;
 	 

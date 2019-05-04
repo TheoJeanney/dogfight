@@ -6,7 +6,6 @@ import controller.UserOrder;
 
 public class EventPerformer {
 	 
-	UserOrder test = new UserOrder();
 	
 	public void EventPerformer(IOrderPerformer orderPerformer) {
 		
@@ -17,6 +16,6 @@ public class EventPerformer {
 	}
 	
 	private UserOrder keyCodeToUserOrder(int keyCode) {
-		return test ;
+		return null ;
 	}
 }
