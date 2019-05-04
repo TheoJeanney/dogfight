@@ -16,3 +16,4 @@ public interface IDogfightModel {   //création de l'interface IDogfightModel
 	public void setMobilesHavesMoved();
 }
 
+

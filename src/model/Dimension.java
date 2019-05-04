@@ -1,4 +1,6 @@
 package model; //déclaration du package dans lequel se trouve la classe
+
+import java.awt.*;
 /**
  * Dimension
  */
@@ -12,6 +14,7 @@ public class Dimension {  //création de la classe
     }
 
     public Dimension(Dimension dimension) {
+        this.dimension = dimension;
         
     }
 
